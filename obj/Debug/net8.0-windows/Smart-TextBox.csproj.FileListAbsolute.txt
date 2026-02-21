@@ -1,0 +1,17 @@
+C:\Smartdev\Smart-TextBox\bin\Debug\net8.0-windows\Smart-TextBox.exe
+C:\Smartdev\Smart-TextBox\bin\Debug\net8.0-windows\Smart-TextBox.deps.json
+C:\Smartdev\Smart-TextBox\bin\Debug\net8.0-windows\Smart-TextBox.runtimeconfig.json
+C:\Smartdev\Smart-TextBox\bin\Debug\net8.0-windows\Smart-TextBox.dll
+C:\Smartdev\Smart-TextBox\bin\Debug\net8.0-windows\Smart-TextBox.pdb
+C:\Smartdev\Smart-TextBox\obj\Debug\net8.0-windows\Smart_TextBox.Form1.resources
+C:\Smartdev\Smart-TextBox\obj\Debug\net8.0-windows\Smart-TextBox.csproj.GenerateResource.cache
+C:\Smartdev\Smart-TextBox\obj\Debug\net8.0-windows\Smart-TextBox.GeneratedMSBuildEditorConfig.editorconfig
+C:\Smartdev\Smart-TextBox\obj\Debug\net8.0-windows\Smart-TextBox.AssemblyInfoInputs.cache
+C:\Smartdev\Smart-TextBox\obj\Debug\net8.0-windows\Smart-TextBox.AssemblyInfo.cs
+C:\Smartdev\Smart-TextBox\obj\Debug\net8.0-windows\Smart-TextBox.csproj.CoreCompileInputs.cache
+C:\Smartdev\Smart-TextBox\obj\Debug\net8.0-windows\Smart-TextBox.dll
+C:\Smartdev\Smart-TextBox\obj\Debug\net8.0-windows\refint\Smart-TextBox.dll
+C:\Smartdev\Smart-TextBox\obj\Debug\net8.0-windows\Smart-TextBox.pdb
+C:\Smartdev\Smart-TextBox\obj\Debug\net8.0-windows\Smart-TextBox.genruntimeconfig.cache
+C:\Smartdev\Smart-TextBox\obj\Debug\net8.0-windows\ref\Smart-TextBox.dll
+C:\Smartdev\Smart-TextBox\obj\Debug\net8.0-windows\TextBox.SmartTextBox.resources
