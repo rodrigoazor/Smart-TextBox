@@ -3,16 +3,20 @@
   "WorkspaceRootPath": "C:\\Smartdev\\Smart-TextBox\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{78B1CA4F-7430-4834-BBF4-61D9D9E32809}|Smart-TextBox.csproj|C:\\Smartdev\\Smart-TextBox\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{78B1CA4F-7430-4834-BBF4-61D9D9E32809}|Smart-TextBox.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{78B1CA4F-7430-4834-BBF4-61D9D9E32809}|Smart-TextBox.csproj|c:\\smartdev\\smart-textbox\\smarttextbox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{78B1CA4F-7430-4834-BBF4-61D9D9E32809}|Smart-TextBox.csproj|solutionrelative:smarttextbox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{78B1CA4F-7430-4834-BBF4-61D9D9E32809}|Smart-TextBox.csproj|c:\\smartdev\\smart-textbox\\smarttextbox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{78B1CA4F-7430-4834-BBF4-61D9D9E32809}|Smart-TextBox.csproj|C:\\Smartdev\\Smart-TextBox\\smarttextbox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{78B1CA4F-7430-4834-BBF4-61D9D9E32809}|Smart-TextBox.csproj|solutionrelative:smarttextbox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{78B1CA4F-7430-4834-BBF4-61D9D9E32809}|Smart-TextBox.csproj|c:\\smartdev\\smart-textbox\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{78B1CA4F-7430-4834-BBF4-61D9D9E32809}|Smart-TextBox.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{78B1CA4F-7430-4834-BBF4-61D9D9E32809}|Smart-TextBox.csproj|c:\\smartdev\\smart-textbox\\smarttextbox.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}",
+      "RelativeMoniker": "D:0:0:{78B1CA4F-7430-4834-BBF4-61D9D9E32809}|Smart-TextBox.csproj|solutionrelative:smarttextbox.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{78B1CA4F-7430-4834-BBF4-61D9D9E32809}|Smart-TextBox.csproj|c:\\smartdev\\smart-textbox\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -26,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 929,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -37,8 +41,24 @@
               "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
+              "Title": "SmartTextBox.resx",
+              "DocumentMoniker": "C:\\Smartdev\\Smart-TextBox\\SmartTextBox.resx",
+              "RelativeDocumentMoniker": "SmartTextBox.resx",
+              "ToolTip": "C:\\Smartdev\\Smart-TextBox\\SmartTextBox.resx",
+              "RelativeToolTip": "SmartTextBox.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2026-02-23T14:26:04.274Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "C:\\Smartdev\\Smart-TextBox\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
@@ -50,7 +70,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Form1.Designer.cs",
               "DocumentMoniker": "C:\\Smartdev\\Smart-TextBox\\Form1.Designer.cs",
               "RelativeDocumentMoniker": "Form1.Designer.cs",
@@ -63,7 +83,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "SmartTextBox.cs [Design]",
               "DocumentMoniker": "C:\\Smartdev\\Smart-TextBox\\SmartTextBox.cs",
               "RelativeDocumentMoniker": "SmartTextBox.cs",
@@ -75,13 +95,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "SmartTextBox.cs",
               "DocumentMoniker": "C:\\Smartdev\\Smart-TextBox\\SmartTextBox.cs",
               "RelativeDocumentMoniker": "SmartTextBox.cs",
               "ToolTip": "C:\\Smartdev\\Smart-TextBox\\SmartTextBox.cs",
               "RelativeToolTip": "SmartTextBox.cs",
-              "ViewState": "AgIAACkBAAAAAAAAAAAEwDsBAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAD4BAAAAAAAAAAD4v0EBAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-20T19:39:52.189Z",
               "EditorCaption": ""

@@ -33,5 +33,10 @@ namespace Smart_TextBox
         {
 
         }
+
+        private void smartTextBox1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
