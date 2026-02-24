@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Smart-TextBox")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+25500ab5c39e0814763e1d2651d072919b14e3e4")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+835c4f9639800c39e224a8399b05147c67034669")]
 [assembly: System.Reflection.AssemblyProductAttribute("Smart-TextBox")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Smart-TextBox")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

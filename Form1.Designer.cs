@@ -81,7 +81,7 @@ namespace Smart_TextBox
             smartTextBox2.CustomRegexPattern = "";
             smartTextBox2.ErrorMessage = "Valor inválido.";
             smartTextBox2.FocusMessage = "";
-            smartTextBox2.InnerIcon = TextBox.InnerIconType.Url;
+            smartTextBox2.InnerIcon = TextBox.InnerIconType.Globe;
             smartTextBox2.InnerIconPosition = TextBox.InnerIconPosition.Left;
             smartTextBox2.Location = new Point(170, 212);
             smartTextBox2.Name = "smartTextBox2";

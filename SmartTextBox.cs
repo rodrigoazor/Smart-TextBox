@@ -14,12 +14,81 @@ namespace TextBox
     public enum InnerIconType
     {
         None,
+
+        // Communication
         Email,
-        User,
-        Lock,
         Phone,
+        Chat,
+        Send,
+        Inbox,
+        Calendar,
+
+        // User / Security
+        User,
+        UserAdd,
+        UserRemove,
+        Lock,
+        Unlock,
+        Key,
+        Shield,
+        ShieldCheck,
+        ShieldError,
+
+        // Navigation
         Search,
-        Url
+        Filter,
+        Settings,
+        Menu,
+        More,
+        Home,
+        Back,
+        Forward,
+        Refresh,
+
+        // Files / Data
+        File,
+        FileAdd,
+        FileRemove,
+        Folder,
+        FolderOpen,
+        Save,
+        Upload,
+        Download,
+        Database,
+
+        // Status
+        Check,
+        Close,
+        Warning,
+        Info,
+        Error,
+
+        // Commerce / Finance
+        Cart,
+        CreditCard,
+        Money,
+        Wallet,
+        Tag,
+        Chart,
+        ChartBar,
+        ChartLine,
+
+        // Media
+        Play,
+        Pause,
+        Stop,
+        Camera,
+        Image,
+
+        // Misc
+        Star,
+        Heart,
+        Location,
+        Link,
+        Globe,
+        Clipboard,
+        Edit,
+        Trash
     }
 
     public enum InnerIconPosition
@@ -31,14 +100,14 @@ namespace TextBox
     public enum ValidationMode
     {
         None,
-        CampoObrigatorio,
+        Required,
         Email,
         NIF,
         NIB,
-        Telemovel,
+        Telephone,
         URL,
-        Numero,
-        TextoSemEspaco,
+        Number,
+        TextWithoutSpace,
         CustomRegex
     }
 
@@ -53,7 +122,9 @@ namespace TextBox
         private Timer animationTimer = new Timer();
         private ToolTip toolTip = new ToolTip();
 
-        private const string IconFont = "Segoe Fluent Icons";
+
+        private const string IconFont = "Segoe MDL2 Assets";
+
 
         private InnerIconType innerIcon = InnerIconType.None;
         private InnerIconPosition innerIconPosition = InnerIconPosition.Left;
@@ -80,8 +151,8 @@ namespace TextBox
         private float errorFadeProgress = 0f;
 
         private string customRegexPattern = "";
-        private string validationMessage = "Valor inválido.";
-        private string errorMessage = "Valor inválido.";
+        private string validationMessage = "Invalid value.";
+        private string errorMessage = "Invalid value.";
         private string focusMessage = "";
 
         #region PROPERTIES
@@ -281,7 +352,7 @@ namespace TextBox
                 return;
             }
 
-            if (validationMode == ValidationMode.CampoObrigatorio)
+            if (validationMode == ValidationMode.Required)
             {
                 isValid = !string.IsNullOrWhiteSpace(textBox.Text);
             }
@@ -313,7 +384,7 @@ namespace TextBox
             }
 
             animationTimer.Start();
-            
+
             AdjustLayout();
 
             Invalidate();
@@ -326,10 +397,10 @@ namespace TextBox
                 case ValidationMode.Email: return @"^[^@\s]+@[^@\s]+\.[^@\s]+$";
                 case ValidationMode.NIF: return @"^\d{9}$";
                 case ValidationMode.NIB: return @"^\d{21}$";
-                case ValidationMode.Telemovel: return @"^9\d{8}$";
+                case ValidationMode.Telephone: return @"^9\d{8}$";
                 case ValidationMode.URL: return @"^(https?:\/\/)?([\w\-]+\.)+[\w\-]+";
-                case ValidationMode.Numero: return @"^\d+$";
-                case ValidationMode.TextoSemEspaco: return @"^\S+$";
+                case ValidationMode.Number: return @"^\d+$";
+                case ValidationMode.TextWithoutSpace: return @"^\S+$";
                 case ValidationMode.CustomRegex: return customRegexPattern;
                 default: return null;
             }
@@ -535,12 +606,81 @@ namespace TextBox
         {
             switch (icon)
             {
+                // Communication
                 case InnerIconType.Email: return "\uE715";
-                case InnerIconType.User: return "\uE77B";
-                case InnerIconType.Lock: return "\uE72E";
                 case InnerIconType.Phone: return "\uE717";
+                case InnerIconType.Chat: return "\uE8BD";
+                case InnerIconType.Send: return "\uE724";
+                case InnerIconType.Inbox: return "\uE719";
+                case InnerIconType.Calendar: return "\uE787";
+
+                // User / Security
+                case InnerIconType.User: return "\uE77B";
+                case InnerIconType.UserAdd: return "\uE8FA";
+                case InnerIconType.UserRemove: return "\uE8FB";
+                case InnerIconType.Lock: return "\uE72E";
+                case InnerIconType.Unlock: return "\uE785";
+                case InnerIconType.Key: return "\uE192";
+                case InnerIconType.Shield: return "\uE83D";
+                case InnerIconType.ShieldCheck: return "\uE73E";
+                case InnerIconType.ShieldError: return "\uEA39";
+
+                // Navigation
                 case InnerIconType.Search: return "\uE721";
-                case InnerIconType.Url: return "\uE774";
+                case InnerIconType.Filter: return "\uE71C";
+                case InnerIconType.Settings: return "\uE713";
+                case InnerIconType.Menu: return "\uE700";
+                case InnerIconType.More: return "\uE712";
+                case InnerIconType.Home: return "\uE80F";
+                case InnerIconType.Back: return "\uE72B";
+                case InnerIconType.Forward: return "\uE72A";
+                case InnerIconType.Refresh: return "\uE72C";
+
+                // Files / Data
+                case InnerIconType.File: return "\uE7C3";
+                case InnerIconType.FileAdd: return "\uE8B7";
+                case InnerIconType.FileRemove: return "\uE8B6";
+                case InnerIconType.Folder: return "\uE8B7";
+                case InnerIconType.FolderOpen: return "\uE838";
+                case InnerIconType.Save: return "\uE74E";
+                case InnerIconType.Upload: return "\uE898";
+                case InnerIconType.Download: return "\uE896";
+                case InnerIconType.Database: return "\uE9F1";
+
+                // Status
+                case InnerIconType.Check: return "\uE73E";
+                case InnerIconType.Close: return "\uE711";
+                case InnerIconType.Warning: return "\uE7BA";
+                case InnerIconType.Info: return "\uE946";
+                case InnerIconType.Error: return "\uEA39";
+
+                // Commerce
+                case InnerIconType.Cart: return "\uE7BF";
+                case InnerIconType.CreditCard: return "\uE8C7";
+                case InnerIconType.Money: return "\uEAFD";
+                case InnerIconType.Wallet: return "\uE8C9";
+                case InnerIconType.Tag: return "\uE8EC";
+                case InnerIconType.Chart: return "\uE9D2";
+                case InnerIconType.ChartBar: return "\uE9D2";
+                case InnerIconType.ChartLine: return "\uE9E9";
+
+                // Media
+                case InnerIconType.Play: return "\uE768";
+                case InnerIconType.Pause: return "\uE769";
+                case InnerIconType.Stop: return "\uE71A";
+                case InnerIconType.Camera: return "\uE722";
+                case InnerIconType.Image: return "\uEB9F";
+
+                // Misc
+                case InnerIconType.Star: return "\uE734";
+                case InnerIconType.Heart: return "\uEB52";
+                case InnerIconType.Location: return "\uE707";
+                case InnerIconType.Link: return "\uE71B";
+                case InnerIconType.Globe: return "\uE774";
+                case InnerIconType.Clipboard: return "\uE8C8";
+                case InnerIconType.Edit: return "\uE70F";
+                case InnerIconType.Trash: return "\uE74D";
+
                 default: return "";
             }
         }
